@@ -2,6 +2,7 @@
 
 ## Introduction
 This project implements backscatter-based EMR modulation in Zedboard. The modulated EMR signal can be captured by a commercial wireless network card and used as a physical fingerprint of a USB peripheral device for identification. 
++ This project corresponds 4.2 section "Backscatter-based EMR Modulation" in the paper.
 
 ## Project Structure
 A description of the project's directory structure, including key files and directories.
@@ -42,3 +43,7 @@ List all the hardware and software requirements needed for the project.
 
 + **Software**: Xilinx Vivado 2018.3, ModelSim 10.6
 
+## Usage Instructions
++ First, run **Generate Bitstream** to generate top.bit file.
++ Second, run **Open Hardware Manager** to connect the FPGA board.
++ Finally, run **Program Device** to download top.bit file into the FPGA board.
