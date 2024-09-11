@@ -46,11 +46,10 @@ SecurityHub/
 ### Software
 - **Xilinx Vivado 2018.3**  
   Vivado is the software suite for programming and debugging Xilinx FPGA devices. To install Vivado:
-  1. Visit the [Xilinx Vivado 2018.3 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2018-3.html).
+  1. Visit the [Xilinx Vivado 2018.3 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html).
   2. Follow the instructions for downloading and installing Vivado on your system.
-  3. Ensure that your system meets the minimum requirements, which can be found in the [Vivado System Requirements](https://www.xilinx.com/products/design-tools/vivado.html#system-requirements).
 
-- **ModelSim 10.6**  
+- **ModelSim 10.6c**  
   ModelSim is used for simulating HDL designs. To install ModelSim:
   1. Visit the [ModelSim Download Page](https://www.mentor.com/company/higher_ed/modelsim-student-edition) for the student edition or contact your provider for the commercial version.
   2. Follow the installation guide available on the site.
