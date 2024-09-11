@@ -54,7 +54,7 @@ SecurityHub/
   1. Visit the [ModelSim Download Page](https://www.mentor.com/company/higher_ed/modelsim-student-edition) for the student edition or contact your provider for the commercial version.
   2. Follow the installation guide available on the site.
 
-- **Operating System**: Windows 10 (Ensure that all tools are compatible with Windows 10).
+- **Operating System**: Windows 10.
 
 ### Additional Notes
 Ensure that your hardware (FPGA and JTAG programmer) is properly connected to the system before running the software. For more details on FPGA configuration, refer to the documentation provided with your Xilinx board.
