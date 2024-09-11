@@ -36,14 +36,34 @@ SecurityHub/
 └── README.md           # Project README
 ```
 
-## Requirements
-List all the hardware and software requirements needed for the project.
+## Project Requirements
 
-+ **Hardware**: FPGA board (Xilinx Zynq-7000), JTAG programmer, RF Switch (ADG902)
+### Hardware
+- **FPGA board**: Xilinx Zynq-7000
+- **JTAG programmer**
+- **RF Switch**: ADG902
 
-+ **Software**: Xilinx Vivado 2018.3, ModelSim 10.6
+### Software
+- **Xilinx Vivado 2018.3**  
+  Vivado is the software suite for programming and debugging Xilinx FPGA devices. To install Vivado:
+  1. Visit the [Xilinx Vivado 2018.3 download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2018-3.html).
+  2. Follow the instructions for downloading and installing Vivado on your system.
+  3. Ensure that your system meets the minimum requirements, which can be found in the [Vivado System Requirements](https://www.xilinx.com/products/design-tools/vivado.html#system-requirements).
+
+- **ModelSim 10.6**  
+  ModelSim is used for simulating HDL designs. To install ModelSim:
+  1. Visit the [ModelSim Download Page](https://www.mentor.com/company/higher_ed/modelsim-student-edition) for the student edition or contact your provider for the commercial version.
+  2. Follow the installation guide available on the site.
+
+- **Operating System**: Windows 10 (Ensure that all tools are compatible with Windows 10).
+
+### Additional Notes
+Ensure that your hardware (FPGA and JTAG programmer) is properly connected to the system before running the software. For more details on FPGA configuration, refer to the documentation provided with your Xilinx board.
+
 
 ## Usage Instructions
-+ First, run **Generate Bitstream** to generate top.bit file.
-+ Second, run **Open Hardware Manager** to connect the FPGA board.
++ First, use the Xilinx Vivado 2018.3 software to open the **SecurityHub.xpr** file in the folder.
++ Second, run **Generate Bitstream** to generate top.bit file.
++ Third, run **Open Hardware Manager** to connect the FPGA board.
 + Finally, run **Program Device** to download top.bit file into the FPGA board.
++ If you want to see the resource utilization, you can run **Report Utilization** under the **IMPLEMENTATION**.
