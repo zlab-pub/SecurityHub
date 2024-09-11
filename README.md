@@ -62,8 +62,9 @@ Ensure that your hardware (FPGA and JTAG programmer) is properly connected to th
 
 
 ## Usage Instructions
-+ First, use the Xilinx Vivado 2018.3 software to open the **SecurityHub.xpr** file in the folder.
-+ Second, run **Generate Bitstream** to generate top.bit file.
-+ Third, run **Open Hardware Manager** to connect the FPGA board.
-+ Finally, run **Program Device** to download top.bit file into the FPGA board.
+1. Use the Xilinx Vivado 2018.3 software to open the **SecurityHub.xpr** file in the folder.
+2. Run **Generate Bitstream** to generate top.bit file.
+3. Run **Open Hardware Manager** to connect the FPGA board.
+4. Run **Program Device** to download top.bit file into the FPGA board.
+### Additional Notes
 + If you want to see the resource utilization, you can run **Report Utilization** under the **IMPLEMENTATION**.
