@@ -86,4 +86,4 @@ Ensure that your hardware (FPGA and JTAG programmer) is properly connected to th
 3. Use **add wave** to add all the signals from chirpsignal to the waveform window and set the simulation time to **100us**, then run the simulation.  
 <!-- 4. Select the **tan_out** signal in the waveform window, change the format to **Analog** and the radix to **float32**. The **tan_out** signal will appear as a **triangular waveform**, which controls SSC frequency variation.   -->
 4. Save the **phase** signal as a 32-bit binary fixed-point number (1 sign bit, 2-3 integer bits, 4-32 fractional bits) to a txt file. Then, use **MATLAB R2023b** to read the file and plot the time-frequency diagram to verify the SSC signal's period (31.26kHz) and amplitude (25.5MHz - 38MHz). 
-+ We have uploaded the **phase.txt** file generated from the simulation, along with the MATLAB code to read the file, as a reference for verifying the results.
++ We have uploaded the **Simulation/phase.txt** file generated from the simulation, along with the MATLAB code **Simulation/decode_Simulation.m** to read the file, as a reference for verifying the results.
